@@ -1,5 +1,5 @@
-My little space on the internet. I started this project with the intention to
-getting to learn Next.js and practicing some web technologies.
+This is a website  with a little bit about me. I don't know yet what I'll be
+putting here yet. Probably cat pics.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
