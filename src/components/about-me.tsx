@@ -1,6 +1,6 @@
 export default function AboutMe () {
   return (
-    <section className="text-2xl">
+    <section className="text-2xl tracking-tighter">
       <p>
         Hi, I'm Daniel. I'm a Full-Stack Software Developer from Brazil
         currently living at São Paulo.
