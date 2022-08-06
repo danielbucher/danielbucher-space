@@ -12,7 +12,7 @@ export default function SocialMedia(props: SocialMediaProps) {
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="ml-2 mr-2 first:ml-0 last:mr-0"
+      className="ml-6 mr-6 first:ml-0 last:mr-0"
     >
       {children}
     </a>

@@ -13,24 +13,12 @@ export default function Layout(props: LayoutProps) {
   const { children, home } = props;
 
   return (
-    <div className="container flex flex-col items-center py-2 mt-12 mb-24 mx-auto">
+    <div className="container flex flex-col items-center mx-auto font-mono">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Portfolio for Daniel C. Bucher." />
       </Head>
-      <header>
-        <div className="container flex flex-col items-center justify-center">
-          <Profile home={home} name={name} />
-        </div>
-      </header>
-      <main className="max-w-3xl mx-auto">{children}</main>
-      {!home && (
-        <div>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <div className="max-w-3xl mx-auto">{children}</div>
     </div>
   );
 }
