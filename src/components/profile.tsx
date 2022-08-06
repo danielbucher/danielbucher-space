@@ -8,7 +8,7 @@ type ProfileProps = {
 
 export default function Profile(props: ProfileProps) {
   const { home, name } = props;
-  const imageSize = home ? 144 : 108;
+  const imageSize = home ? 200 : 108;
 
   return (
     <>
@@ -32,8 +32,8 @@ export default function Profile(props: ProfileProps) {
                 priority
                 src="/images/profile.jpg"
                 className="rounded-full"
-                height={108}
-                width={108}
+                height={imageSize}
+                width={imageSize}
                 alt={name}
               />
             </a>
